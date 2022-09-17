@@ -17,5 +17,10 @@ pipeline {
                 echo 'Hello World with CD'
             }
         }
+        stage('CD-deployemnt') {
+            steps {
+                echo 'Hello World with CD inapache'
+            }
+        }
     }
 }
