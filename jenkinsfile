@@ -19,7 +19,7 @@ pipeline {
         }
         stage('CD-deployemnt') {
             steps {
-                echo 'Hello World with CD inapache'
+                echo 'Hello World with CD in Apache'
             }
         }
     }
